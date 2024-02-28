@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="home">
+    <h1>Final Project</h1>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact</a>
+        <a href="pagecounter.html">Visitor Count</a>
+        <a href="slideshows.html">Slideshows</a>
+        <a href="myprojects.html">JavaScript Used</a>
+    </nav>
+    <div class="backgroundC">
+        <form name="myForm" id="myForm" action="">
+            <input type="text" id="fname" name="fname" placeholder="First Name" onkeyup="checkForm()">
+            <input type="text" id="email" name="email" placeholder="Email" onkeyup="checkForm()">
+            <label for="comments" id="comments">Comments &darr;</label>
+            <p><textarea cols="100" rows="10" name="comment" id="comments" onkeyup="checkForm()"></textarea></p>
+            <input type="submit" value="Submit" id="submitThis" disabled="disabled">
+        </form>
+    </div>
+    <footer class="foot2">
+        <p>&copy; 2021 Mitchell Laypath</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
